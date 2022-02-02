@@ -2,7 +2,7 @@
 
 ## Description
 
-I was tasked with refactoring the api calls for the book search engine to use graphql with queries and mutations instead of api calss.
+I was tasked with refactoring the api calls for the book search engine to use graphql with queries and mutations instead of api calls.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ I was tasked with refactoring the api calls for the book search engine to use gr
 
 * If you wish to install this for future development you can follow these steps
     1. Fork the repository from Github (The link to the github is: 
-        https://github.com/EvoL1e/Book Search Engine)
+        https://github.com/EvoL1e/Book-Search-Engine)
     2. Clone the repository by going to the green code button
     3. Open up GitBash (Windows) or Terminal (MacOs) and write down git clone (SSH key link from the green code button)
     4. Once cloned go to wherever your cloned files are set up
