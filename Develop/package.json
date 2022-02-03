@@ -4,10 +4,13 @@
   "description": "",
   "main": "server/server.js",
   "scripts": {
-    "start": "node server/server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b main -d build",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
     "install": "cd server && npm i && cd ../client && npm i",
-    "build": "cd client && npm run build"
+    "homepage": "https://EvoL1e.github.io/Book-Search-Engine"
   },
   "keywords": [],
   "author": "",
